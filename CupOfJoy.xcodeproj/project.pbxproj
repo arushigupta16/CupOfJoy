@@ -15,6 +15,8 @@
 		5560115126E6E7CE006006BD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5560114F26E6E7CE006006BD /* LaunchScreen.storyboard */; };
 		5560115C26E6E7CE006006BD /* CupOfJoyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5560115B26E6E7CE006006BD /* CupOfJoyTests.swift */; };
 		5560116726E6E7CE006006BD /* CupOfJoyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5560116626E6E7CE006006BD /* CupOfJoyUITests.swift */; };
+		5560117526E6F8BF006006BD /* EntryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5560117426E6F8BF006006BD /* EntryViewController.swift */; };
+		5560117926E6F900006006BD /* OrderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5560117826E6F900006006BD /* OrderViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,8 @@
 		5560116226E6E7CE006006BD /* CupOfJoyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CupOfJoyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5560116626E6E7CE006006BD /* CupOfJoyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CupOfJoyUITests.swift; sourceTree = "<group>"; };
 		5560116826E6E7CE006006BD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5560117426E6F8BF006006BD /* EntryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EntryViewController.swift; sourceTree = "<group>"; };
+		5560117826E6F900006006BD /* OrderViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +110,8 @@
 				5560114D26E6E7CE006006BD /* Assets.xcassets */,
 				5560114F26E6E7CE006006BD /* LaunchScreen.storyboard */,
 				5560115226E6E7CE006006BD /* Info.plist */,
+				5560117426E6F8BF006006BD /* EntryViewController.swift */,
+				5560117826E6F900006006BD /* OrderViewController.swift */,
 			);
 			path = CupOfJoy;
 			sourceTree = "<group>";
@@ -259,6 +265,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				5560114926E6E7CB006006BD /* ViewController.swift in Sources */,
+				5560117926E6F900006006BD /* OrderViewController.swift in Sources */,
+				5560117526E6F8BF006006BD /* EntryViewController.swift in Sources */,
 				5560114526E6E7CB006006BD /* AppDelegate.swift in Sources */,
 				5560114726E6E7CB006006BD /* SceneDelegate.swift in Sources */,
 			);
