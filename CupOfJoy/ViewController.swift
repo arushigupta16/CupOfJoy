@@ -11,7 +11,7 @@ class ViewController: UIViewController {
 
     // want to create an outlet for our table view
     // this outlet will control the table view on the storyboard
-    
+    // black circle next to IBOutlet confirms that there is a connection between the UI component and this view controller
     @IBOutlet var tableView: UITableView!
     
     // create an array in order to hold all the coffee orders an individual has placed and track where they went
@@ -62,7 +62,7 @@ class ViewController: UIViewController {
     //show another view controller that allows the user to make a new coffee entry
     @IBAction func didTapAdd() {
         let viewController = storyboard?.instantiateViewController(identifier: "entry") as! EntryViewController
-        viewController.title = "New Coffee Order"
+        viewController.title = "A New Cup"
         viewController.update = {
             // every time that we call update we want to reload the table view
             // Use Dispatch in order to prioritize this
@@ -85,6 +85,23 @@ extension ViewController: UITableViewDelegate{
     func tableView( _ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         // after we select a specific coffee order, we then want it to be deselected based on the provided index path
         tableView.deselectRow(at: indexPath, animated: true)
+        
+        // copied code from didTapAdd that will work on screen that can delete a coffee order
+        let viewController = storyboard?.instantiateViewController(identifier: "order") as! OrderViewController
+        viewController.title = "A New Cup"
+        //need to ensure you are using the same IBOutlet "shop" in both the EntryViewController and OrderViewController
+        viewController.shop = orders[indexPath.row]
+        // No need for lines 93-99 as we will nt be using update
+        //viewController.update = {
+            // every time that we call update we want to reload the table view
+            // Use Dispatch in order to prioritize this
+            //DispatchQueue.main.async {
+                //self.updateOrders()
+            //}
+        //}
+        // we now want to push a new view controller so we will do that manually inside this navigation view
+        navigationController?.pushViewController(viewController, animated: true)
+        
     }
 }
 
