@@ -9,24 +9,31 @@ import UIKit
 
 class OrderViewController: UIViewController {
     
-    @IBOutlet var label1: UILabel!
+    //@IBOutlet var label1: UILabel!
     
-    var shop: String?
+    @IBOutlet var shopLabel: UILabel!
+    @IBOutlet var infoLabel: UITextView!
+    
+    //var shop: String?
+    
+    public var shopName: String = ""
+    public var moreInfo: String = ""
 
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        label1.text = shop
+        shopLabel.text = shopName
+        infoLabel.text = moreInfo
         // can also do a .trash icon as well which is really cool
         //navigationItem.rightBarButtonItem = UIBarButtonItem(title: "Delete Order", style: .done, target: self, action: #selector(deleteOrder))
         // Do any additional setup after loading the view.
     }
     
-    @objc func deleteOrder() {
+    //@objc func deleteOrder() {
         // add a navigation item that sort of identifies where screen should go when this method is called
         //guard let orderItem = self.item else {
            // return
-        }
+        //}
    // }
 
     /*
