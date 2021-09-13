@@ -1,0 +1,6 @@
+framework module Pods_CupOfJoyTests {
+  umbrella header "Pods-CupOfJoyTests-umbrella.h"
+
+  export *
+  module * { export * }
+}
