@@ -3,11 +3,11 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
-		553D601426EC807B005C74D5 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 553D601326EC807B005C74D5 /* GoogleService-Info.plist */; };
+		553D601626EEFE8F005C74D5 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 553D601526EEFE8F005C74D5 /* GoogleService-Info.plist */; };
 		5560114526E6E7CB006006BD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5560114426E6E7CB006006BD /* AppDelegate.swift */; };
 		5560114726E6E7CB006006BD /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5560114626E6E7CB006006BD /* SceneDelegate.swift */; };
 		5560114926E6E7CB006006BD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5560114826E6E7CB006006BD /* ViewController.swift */; };
@@ -45,7 +45,7 @@
 		0C1B169EDA3061FCC8429AC3 /* Pods-CupOfJoyTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CupOfJoyTests.release.xcconfig"; path = "Target Support Files/Pods-CupOfJoyTests/Pods-CupOfJoyTests.release.xcconfig"; sourceTree = "<group>"; };
 		2033FD76F5DCA3737B8DE725 /* Pods-CupOfJoy.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CupOfJoy.debug.xcconfig"; path = "Target Support Files/Pods-CupOfJoy/Pods-CupOfJoy.debug.xcconfig"; sourceTree = "<group>"; };
 		5477FEE9FD10A33471A964B7 /* Pods-CupOfJoyTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CupOfJoyTests.debug.xcconfig"; path = "Target Support Files/Pods-CupOfJoyTests/Pods-CupOfJoyTests.debug.xcconfig"; sourceTree = "<group>"; };
-		553D601326EC807B005C74D5 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../GoogleService-Info.plist"; sourceTree = "<group>"; };
+		553D601526EEFE8F005C74D5 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../Desktop/GoogleService-Info.plist"; sourceTree = "<group>"; };
 		5560114126E6E7CB006006BD /* CupOfJoy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CupOfJoy.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5560114426E6E7CB006006BD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5560114626E6E7CB006006BD /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -122,7 +122,7 @@
 		5560114326E6E7CB006006BD /* CupOfJoy */ = {
 			isa = PBXGroup;
 			children = (
-				553D601326EC807B005C74D5 /* GoogleService-Info.plist */,
+				553D601526EEFE8F005C74D5 /* GoogleService-Info.plist */,
 				5560114426E6E7CB006006BD /* AppDelegate.swift */,
 				5560114626E6E7CB006006BD /* SceneDelegate.swift */,
 				5560114826E6E7CB006006BD /* ViewController.swift */,
@@ -164,7 +164,6 @@
 				5477FEE9FD10A33471A964B7 /* Pods-CupOfJoyTests.debug.xcconfig */,
 				0C1B169EDA3061FCC8429AC3 /* Pods-CupOfJoyTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -287,7 +286,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5560115126E6E7CE006006BD /* LaunchScreen.storyboard in Resources */,
-				553D601426EC807B005C74D5 /* GoogleService-Info.plist in Resources */,
+				553D601626EEFE8F005C74D5 /* GoogleService-Info.plist in Resources */,
 				5560114E26E6E7CE006006BD /* Assets.xcassets in Resources */,
 				5560114C26E6E7CB006006BD /* Main.storyboard in Resources */,
 			);
